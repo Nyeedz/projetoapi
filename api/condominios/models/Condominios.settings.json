@@ -1,0 +1,84 @@
+{
+  "connection": "default",
+  "collectionName": "condominios",
+  "info": {
+    "name": "condominios",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "required": true,
+      "type": "string"
+    },
+    "logo": {
+      "type": "text"
+    },
+    "cep": {
+      "required": true,
+      "type": "string"
+    },
+    "estado": {
+      "required": true,
+      "type": "string"
+    },
+    "cidade": {
+      "required": true,
+      "type": "string"
+    },
+    "endereco": {
+      "required": true,
+      "type": "string"
+    },
+    "numero": {
+      "type": "integer",
+      "required": true
+    },
+    "complemento": {
+      "type": "string"
+    },
+    "telefone": {
+      "required": true,
+      "type": "string"
+    },
+    "email": {
+      "required": true,
+      "type": "email"
+    },
+    "validade": {
+      "required": true,
+      "type": "date"
+    },
+    "bairro": {
+      "type": "string"
+    },
+    "contrato": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "user": {
+      "model": "user",
+      "via": "condominios",
+      "plugin": "users-permissions"
+    },
+    "areasgerais": {
+      "collection": "areasgerais",
+      "via": "condominio"
+    },
+    "areascomuns": {
+      "collection": "areascomuns",
+      "via": "condominio"
+    },
+    "construtoras": {
+      "model": "construtoras",
+      "via": "condominios"
+    },
+    "ativo": {
+      "default": true,
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/construtoras",
+      "handler": "Construtoras.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/construtoras/count",
+      "handler": "Construtoras.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/construtoras/:_id",
+      "handler": "Construtoras.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/construtoras",
+      "handler": "Construtoras.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/construtoras/:_id",
+      "handler": "Construtoras.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/construtoras/:_id",
+      "handler": "Construtoras.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

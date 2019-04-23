@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/areasgerais",
+      "handler": "Areasgerais.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/areasgerais/count",
+      "handler": "Areasgerais.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/areasgerais/:_id",
+      "handler": "Areasgerais.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/areasgerais",
+      "handler": "Areasgerais.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/areasgerais/:_id",
+      "handler": "Areasgerais.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/areasgerais/:_id",
+      "handler": "Areasgerais.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

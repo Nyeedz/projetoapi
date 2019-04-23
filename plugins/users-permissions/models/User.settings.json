@@ -1,0 +1,98 @@
+{
+  "connection": "default",
+  "info": {
+    "name": "user",
+    "description": ""
+  },
+  "attributes": {
+    "username": {
+      "type": "string",
+      "minLength": 3,
+      "unique": true,
+      "configurable": false,
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "minLength": 6,
+      "configurable": false,
+      "required": true
+    },
+    "provider": {
+      "type": "string",
+      "configurable": false
+    },
+    "password": {
+      "type": "password",
+      "minLength": 6,
+      "configurable": false,
+      "private": true
+    },
+    "resetPasswordToken": {
+      "type": "string",
+      "configurable": false,
+      "private": true
+    },
+    "confirmed": {
+      "type": "boolean",
+      "default": false,
+      "configurable": false
+    },
+    "blocked": {
+      "type": "boolean",
+      "default": false,
+      "configurable": false
+    },
+    "role": {
+      "model": "role",
+      "via": "users",
+      "plugin": "users-permissions",
+      "configurable": false
+    },
+    "condominios": {
+      "collection": "condominios",
+      "via": "user"
+    },
+    "construtoras": {
+      "collection": "construtoras",
+      "via": "user"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "sobrenome": {
+      "type": "string"
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "funcao": {
+      "type": "string"
+    },
+    "tipo_morador": {
+      "type": "boolean"
+    },
+    "cliente": {
+      "type": "boolean"
+    },
+    "admin": {
+      "type": "boolean"
+    },
+    "ativo": {
+      "type": "boolean",
+      "default": true
+    },
+    "fotosChamado": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "funcionario": {
+      "type": "boolean"
+    },
+    "assinatura": {
+      "type": "string"
+    }
+  },
+  "collectionName": "users-permissions_user"
+}

@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "areasgerais",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "areas_gerais": {
+      "type": "json"
+    },
+    "condominio": {
+      "model": "condominios",
+      "via": "areasgerais"
+    },
+    "construtora": {
+      "model": "construtoras",
+      "via": "areasgerais"
+    }
+  }
+}
