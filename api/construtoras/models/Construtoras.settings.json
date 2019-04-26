@@ -77,6 +77,22 @@
     "ativo": {
       "default": true,
       "type": "boolean"
+    },
+    "tipologias": {
+      "collection": "tipologia",
+      "via": "construtora"
+    },
+    "pesquisasatisfacaos": {
+      "collection": "pesquisasatisfacao",
+      "via": "construtora"
+    },
+    "garantias": {
+      "collection": "garantia",
+      "via": "construtora"
+    },
+    "unidadesautonomas": {
+      "collection": "unidadesautonomas",
+      "via": "construtora"
     }
   }
 }

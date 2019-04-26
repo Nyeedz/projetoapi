@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/construtoras",
-      "handler": "Construtoras.find",
+      "path": "/chamados",
+      "handler": "Chamados.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/construtoras/count",
-      "handler": "Construtoras.count",
+      "path": "/chamados/count",
+      "handler": "Chamados.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.findOne",
+      "path": "/chamados/:_id",
+      "handler": "Chamados.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/construtoras",
-      "handler": "Construtoras.create",
+      "path": "/chamados",
+      "handler": "Chamados.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.update",
+      "path": "/chamados/:_id",
+      "handler": "Chamados.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.destroy",
+      "path": "/chamados/:_id",
+      "handler": "Chamados.destroy",
       "config": {
         "policies": []
       }

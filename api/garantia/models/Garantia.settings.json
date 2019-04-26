@@ -2,27 +2,35 @@
   "connection": "default",
   "collectionName": "",
   "info": {
-    "name": "areasgerais",
+    "name": "garantia",
     "description": ""
   },
   "options": {
     "timestamps": true
   },
   "attributes": {
-    "areas_gerais": {
+    "nome": {
+      "required": true,
+      "type": "string"
+    },
+    "subitem": {
       "type": "json"
     },
     "condominio": {
       "model": "condominios",
-      "via": "areasgerais"
+      "via": "garantias"
     },
     "construtora": {
       "model": "construtoras",
-      "via": "areasgerais"
+      "via": "garantias"
+    },
+    "tipologia": {
+      "model": "tipologia",
+      "via": "garantias"
     },
     "chamados": {
       "collection": "chamados",
-      "via": "areasgerai"
+      "via": "garantia"
     }
   }
 }

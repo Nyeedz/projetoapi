@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/construtoras",
-      "handler": "Construtoras.find",
+      "path": "/tipologias",
+      "handler": "Tipologia.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/construtoras/count",
-      "handler": "Construtoras.count",
+      "path": "/tipologias/count",
+      "handler": "Tipologia.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.findOne",
+      "path": "/tipologias/:_id",
+      "handler": "Tipologia.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/construtoras",
-      "handler": "Construtoras.create",
+      "path": "/tipologias",
+      "handler": "Tipologia.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.update",
+      "path": "/tipologias/:_id",
+      "handler": "Tipologia.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.destroy",
+      "path": "/tipologias/:_id",
+      "handler": "Tipologia.destroy",
       "config": {
         "policies": []
       }

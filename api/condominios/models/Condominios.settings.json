@@ -79,6 +79,26 @@
     "ativo": {
       "default": true,
       "type": "boolean"
+    },
+    "torres": {
+      "collection": "tipologia",
+      "via": "condominios"
+    },
+    "garantias": {
+      "collection": "garantia",
+      "via": "condominio"
+    },
+    "unidadesautonomas": {
+      "collection": "unidadesautonomas",
+      "via": "condominio"
+    },
+    "funcionarios": {
+      "collection": "funcionarios",
+      "via": "condominios"
+    },
+    "chamados": {
+      "collection": "chamados",
+      "via": "condominio"
     }
   }
 }

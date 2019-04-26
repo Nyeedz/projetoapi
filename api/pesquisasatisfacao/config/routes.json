@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/construtoras",
-      "handler": "Construtoras.find",
+      "path": "/pesquisasatisfacaos",
+      "handler": "Pesquisasatisfacao.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/construtoras/count",
-      "handler": "Construtoras.count",
+      "path": "/pesquisasatisfacaos/count",
+      "handler": "Pesquisasatisfacao.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.findOne",
+      "path": "/pesquisasatisfacaos/:_id",
+      "handler": "Pesquisasatisfacao.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/construtoras",
-      "handler": "Construtoras.create",
+      "path": "/pesquisasatisfacaos",
+      "handler": "Pesquisasatisfacao.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.update",
+      "path": "/pesquisasatisfacaos/:_id",
+      "handler": "Pesquisasatisfacao.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.destroy",
+      "path": "/pesquisasatisfacaos/:_id",
+      "handler": "Pesquisasatisfacao.destroy",
       "config": {
         "policies": []
       }

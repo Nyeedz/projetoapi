@@ -1,0 +1,44 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "tipologia",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "required": true,
+      "type": "string"
+    },
+    "validade": {
+      "type": "date"
+    },
+    "condominios": {
+      "model": "condominios",
+      "via": "torres"
+    },
+    "construtora": {
+      "model": "construtoras",
+      "via": "tipologias"
+    },
+    "areascomun": {
+      "model": "areascomuns",
+      "via": "tipologia"
+    },
+    "garantias": {
+      "collection": "garantia",
+      "via": "tipologia"
+    },
+    "unidadesautonomas": {
+      "collection": "unidadesautonomas",
+      "via": "tipologia"
+    },
+    "chamados": {
+      "collection": "chamados",
+      "via": "tipologia"
+    }
+  }
+}

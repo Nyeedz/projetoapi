@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/construtoras",
-      "handler": "Construtoras.find",
+      "path": "/garantias",
+      "handler": "Garantia.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/construtoras/count",
-      "handler": "Construtoras.count",
+      "path": "/garantias/count",
+      "handler": "Garantia.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.findOne",
+      "path": "/garantias/:_id",
+      "handler": "Garantia.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/construtoras",
-      "handler": "Construtoras.create",
+      "path": "/garantias",
+      "handler": "Garantia.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.update",
+      "path": "/garantias/:_id",
+      "handler": "Garantia.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/construtoras/:_id",
-      "handler": "Construtoras.destroy",
+      "path": "/garantias/:_id",
+      "handler": "Garantia.destroy",
       "config": {
         "policies": []
       }

@@ -1,0 +1,65 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "chamados",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "comentario": {
+      "type": "text"
+    },
+    "data_visita": {
+      "type": "date"
+    },
+    "problema_repetido": {
+      "type": "boolean"
+    },
+    "condominio": {
+      "model": "condominios",
+      "via": "chamados"
+    },
+    "areascomun": {
+      "model": "areascomuns",
+      "via": "chamados"
+    },
+    "areasgerai": {
+      "model": "areasgerais",
+      "via": "chamados"
+    },
+    "garantia": {
+      "model": "garantia",
+      "via": "chamados"
+    },
+    "tipologia": {
+      "model": "tipologia",
+      "via": "chamados"
+    },
+    "unidadesautonoma": {
+      "model": "unidadesautonomas",
+      "via": "chamados"
+    },
+    "user": {
+      "model": "user",
+      "via": "chamados",
+      "plugin": "users-permissions"
+    },
+    "encerrado": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "integer"
+    },
+    "files": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "unidade": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "pesquisasatisfacao",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "construtora": {
+      "model": "construtoras",
+      "via": "pesquisasatisfacaos"
+    },
+    "perguntas": {
+      "type": "json"
+    }
+  }
+}

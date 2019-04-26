@@ -2,35 +2,36 @@
   "connection": "default",
   "collectionName": "",
   "info": {
-    "name": "areascomuns",
+    "name": "unidadesautonomas",
     "description": ""
   },
   "options": {
     "timestamps": true
   },
   "attributes": {
-    "areas_tipologias": {
+    "unidades": {
       "type": "json"
-    },
-    "condominio": {
-      "model": "condominios",
-      "via": "areascomuns"
     },
     "construtora": {
       "model": "construtoras",
-      "via": "areascomuns"
+      "via": "unidadesautonomas"
+    },
+    "condominio": {
+      "model": "condominios",
+      "via": "unidadesautonomas"
     },
     "tipologia": {
       "model": "tipologia",
-      "via": "areascomun"
+      "via": "unidadesautonomas"
     },
-    "funcionarios": {
-      "collection": "funcionarios",
-      "via": "areascomuns"
+    "user": {
+      "model": "user",
+      "via": "unidadesautonomas",
+      "plugin": "users-permissions"
     },
     "chamados": {
       "collection": "chamados",
-      "via": "areascomun"
+      "via": "unidadesautonoma"
     }
   }
 }
