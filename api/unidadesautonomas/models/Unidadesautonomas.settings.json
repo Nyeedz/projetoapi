@@ -10,7 +10,8 @@
   },
   "attributes": {
     "unidades": {
-      "type": "json"
+      "collection": "unidades",
+      "via": "unidadesautonoma"
     },
     "construtora": {
       "model": "construtoras",
