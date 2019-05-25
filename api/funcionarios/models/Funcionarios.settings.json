@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "funcionarios",
   "info": {
     "name": "funcionarios",
     "description": ""
@@ -16,11 +16,6 @@
     },
     "condominios": {
       "collection": "condominios",
-      "via": "funcionarios",
-      "dominant": true
-    },
-    "areascomuns": {
-      "collection": "areascomuns",
       "via": "funcionarios",
       "dominant": true
     },

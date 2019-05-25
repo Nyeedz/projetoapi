@@ -24,10 +24,6 @@
       "model": "tipologia",
       "via": "areascomun"
     },
-    "funcionarios": {
-      "collection": "funcionarios",
-      "via": "areascomuns"
-    },
     "chamados": {
       "collection": "chamados",
       "via": "areascomun"

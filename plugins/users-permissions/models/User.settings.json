@@ -107,6 +107,11 @@
     "chamados": {
       "collection": "chamados",
       "via": "user"
+    },
+    "unidades": {
+      "collection": "unidades",
+      "via": "users",
+      "dominant": true
     }
   },
   "collectionName": "users-permissions_user"

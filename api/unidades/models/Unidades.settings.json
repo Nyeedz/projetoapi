@@ -15,6 +15,11 @@
     },
     "nome": {
       "type": "string"
+    },
+    "users": {
+      "collection": "user",
+      "via": "unidades",
+      "plugin": "users-permissions"
     }
   }
 }
