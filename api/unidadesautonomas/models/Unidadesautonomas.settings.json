@@ -29,10 +29,6 @@
       "model": "user",
       "via": "unidadesautonomas",
       "plugin": "users-permissions"
-    },
-    "chamados": {
-      "collection": "chamados",
-      "via": "unidadesautonoma"
     }
   }
 }

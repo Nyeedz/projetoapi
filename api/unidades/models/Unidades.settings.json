@@ -20,6 +20,10 @@
       "collection": "user",
       "via": "unidades",
       "plugin": "users-permissions"
+    },
+    "chamados": {
+      "collection": "chamados",
+      "via": "unidade"
     }
   }
 }

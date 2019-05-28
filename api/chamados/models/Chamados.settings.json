@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "chamados",
   "info": {
     "name": "chamados",
     "description": ""
@@ -26,7 +26,7 @@
       "model": "areascomuns",
       "via": "chamados"
     },
-    "areasgerai": {
+    "areasgerais": {
       "model": "areasgerais",
       "via": "chamados"
     },
@@ -36,10 +36,6 @@
     },
     "tipologia": {
       "model": "tipologia",
-      "via": "chamados"
-    },
-    "unidadesautonoma": {
-      "model": "unidadesautonomas",
       "via": "chamados"
     },
     "user": {
@@ -59,6 +55,10 @@
       "plugin": "upload"
     },
     "unidade": {
+      "model": "unidades",
+      "via": "chamados"
+    },
+    "contato": {
       "type": "string"
     }
   }

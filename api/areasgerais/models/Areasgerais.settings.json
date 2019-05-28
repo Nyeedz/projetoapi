@@ -22,7 +22,7 @@
     },
     "chamados": {
       "collection": "chamados",
-      "via": "areasgerai"
+      "via": "areasgerais"
     }
   }
 }
