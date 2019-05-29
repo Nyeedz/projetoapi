@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "unidadesautonomas",
   "info": {
     "name": "unidadesautonomas",
     "description": ""
@@ -29,6 +29,9 @@
       "model": "user",
       "via": "unidadesautonomas",
       "plugin": "users-permissions"
+    },
+    "validade": {
+      "type": "date"
     }
   }
 }
