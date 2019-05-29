@@ -19,10 +19,16 @@
     "eslint-plugin-react": "^7.7.0"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "immutable": "^4.0.0-rc.12",
+    "jsonwebtoken": "^8.5.1",
+    "koa2-ratelimit": "^0.8.0",
     "lodash": "^4.17.5",
+    "purest": "^3.1.0",
     "strapi": "3.0.0-alpha.26.1",
+    "strapi-hook-mongoose": "3.0.0-alpha.26.1",
     "strapi-utils": "3.0.0-alpha.26.1",
-    "strapi-hook-mongoose": "3.0.0-alpha.26.1"
+    "stream-to-array": "^2.3.0"
   },
   "author": {
     "name": "A Strapi developer",
