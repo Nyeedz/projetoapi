@@ -39,6 +39,11 @@
     "chamados": {
       "collection": "chamados",
       "via": "tipologia"
+    },
+    "users": {
+      "collection": "user",
+      "via": "tipologia",
+      "plugin": "users-permissions"
     }
   }
 }
