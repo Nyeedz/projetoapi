@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "tipologia",
   "info": {
     "name": "tipologia",
     "description": ""
@@ -42,8 +42,13 @@
     },
     "users": {
       "collection": "user",
-      "via": "tipologia",
+      "via": "tipologias",
+      "dominant": true,
       "plugin": "users-permissions"
+    },
+    "unidades": {
+      "collection": "unidades",
+      "via": "tipologia"
     }
   }
 }

@@ -110,11 +110,11 @@
     },
     "unidades": {
       "collection": "unidades",
-      "via": "users",
-      "dominant": true
+      "dominant": true,
+      "via": "users"
     },
-    "tipologia": {
-      "model": "tipologia",
+    "tipologias": {
+      "collection": "tipologia",
       "via": "users"
     }
   },

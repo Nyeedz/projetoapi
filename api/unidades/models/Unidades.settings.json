@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "unidades",
   "info": {
     "name": "unidades",
     "description": ""
@@ -24,6 +24,10 @@
     "chamados": {
       "collection": "chamados",
       "via": "unidade"
+    },
+    "tipologia": {
+      "model": "tipologia",
+      "via": "unidades"
     }
   }
 }

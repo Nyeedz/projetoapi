@@ -29,9 +29,6 @@
       "model": "user",
       "via": "unidadesautonomas",
       "plugin": "users-permissions"
-    },
-    "validade": {
-      "type": "date"
     }
   }
 }
