@@ -42,8 +42,8 @@
     },
     "users": {
       "collection": "user",
-      "via": "tipologias",
       "dominant": true,
+      "via": "tipologias",
       "plugin": "users-permissions"
     },
     "unidades": {

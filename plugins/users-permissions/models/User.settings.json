@@ -110,12 +110,17 @@
     },
     "unidades": {
       "collection": "unidades",
-      "dominant": true,
-      "via": "users"
+      "via": "users",
+      "dominant": true
     },
     "tipologias": {
       "collection": "tipologia",
       "via": "users"
+    },
+    "file": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
     }
   },
   "collectionName": "users-permissions_user"
