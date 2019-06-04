@@ -59,11 +59,6 @@
       "via": "related",
       "plugin": "upload"
     },
-    "user": {
-      "model": "user",
-      "via": "condominios",
-      "plugin": "users-permissions"
-    },
     "areasgerais": {
       "collection": "areasgerais",
       "via": "condominio"
@@ -99,6 +94,11 @@
     "chamados": {
       "collection": "chamados",
       "via": "condominio"
+    },
+    "users": {
+      "collection": "user",
+      "via": "condominios",
+      "plugin": "users-permissions"
     }
   }
 }

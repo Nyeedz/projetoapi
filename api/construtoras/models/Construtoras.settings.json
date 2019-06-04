@@ -69,11 +69,6 @@
       "collection": "areasgerais",
       "via": "construtora"
     },
-    "user": {
-      "model": "user",
-      "via": "construtoras",
-      "plugin": "users-permissions"
-    },
     "ativo": {
       "default": true,
       "type": "boolean"
@@ -93,6 +88,11 @@
     "unidadesautonomas": {
       "collection": "unidadesautonomas",
       "via": "construtora"
+    },
+    "users": {
+      "collection": "user",
+      "via": "construtoras",
+      "plugin": "users-permissions"
     }
   }
 }

@@ -60,6 +60,9 @@
     },
     "contato": {
       "type": "string"
+    },
+    "data_abertura": {
+      "type": "date"
     }
   }
 }

@@ -51,11 +51,13 @@
     },
     "condominios": {
       "collection": "condominios",
-      "via": "user"
+      "via": "users",
+      "dominant": true
     },
     "construtoras": {
       "collection": "construtoras",
-      "via": "user"
+      "via": "users",
+      "dominant": true
     },
     "nome": {
       "type": "string"
