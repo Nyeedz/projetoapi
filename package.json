@@ -25,7 +25,7 @@
     "koa2-ratelimit": "^0.8.0",
     "lodash": "^4.17.5",
     "purest": "^3.1.0",
-    "strapi": "3.0.0-alpha.26.1",
+    "strapi": "3.0.0-beta.17.8",
     "strapi-hook-mongoose": "3.0.0-alpha.26.1",
     "strapi-utils": "3.0.0-alpha.26.1",
     "stream-to-array": "^2.3.0"
